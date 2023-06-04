@@ -1,12 +1,7 @@
-rootProject.name = "sourdough-kt"
+rootProject.name = "karambit"
 
-include("app")
-include("api")
-include("cli")
-include("client")
-include("domain")
-include("lib")
-include("persistence")
+include("core")
+include("playground")
 
 // Feature Previews
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")

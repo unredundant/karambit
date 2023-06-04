@@ -1,0 +1,9 @@
+query MyBrotherInChrist {
+    container {
+        from (address: "alpine:latest") {
+            withExec(args:["uname", "-nrio"]) {
+                stdout
+            }
+        }
+    }
+}
