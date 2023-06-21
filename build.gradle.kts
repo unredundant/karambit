@@ -11,7 +11,7 @@ plugins {
   id("com.apollographql.apollo3") version "4.0.0-alpha.1" apply false
   id("io.bkbn.sourdough.library.jvm") version "0.12.0" apply false
   id("io.bkbn.sourdough.application.jvm") version "0.12.0" apply false
-  id("io.gitlab.arturbosch.detekt") version "1.22.0" apply false
+  id("io.gitlab.arturbosch.detekt") version "1.23.0" apply false
   id("com.adarshr.test-logger") version "3.2.0" apply false
 }
 
