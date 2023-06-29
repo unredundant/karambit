@@ -2,7 +2,7 @@ plugins {
   // Root Plugins
   id("io.bkbn.sourdough.root") version "0.12.0"
   id("com.github.jakemarsden.git-hooks") version "0.0.2"
-  id("org.jetbrains.kotlinx.kover") version "0.6.1"
+  id("org.jetbrains.kotlinx.kover") version "0.7.2"
 
   // Child Plugins
   kotlin("jvm") version "1.8.0" apply false
