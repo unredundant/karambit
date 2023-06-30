@@ -31,7 +31,7 @@ sourdoughLibrary {
 }
 
 dependencies {
-  api("com.apollographql.apollo3:apollo-runtime:4.0.0-alpha.1")
+  api("com.apollographql.apollo3:apollo-runtime:4.0.0-alpha.2")
 }
 
 testing {
