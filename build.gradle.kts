@@ -5,7 +5,7 @@ plugins {
   id("org.jetbrains.kotlinx.kover") version "0.6.1"
 
   // Child Plugins
-  kotlin("jvm") version "1.8.0" apply false
+  kotlin("jvm") version "1.9.0" apply false
   id("com.google.devtools.ksp") version "1.8.0-1.0.8" apply false
   kotlin("plugin.serialization") version "1.8.0" apply false
   id("com.apollographql.apollo3") version "4.0.0-alpha.1" apply false
